@@ -1,0 +1,16 @@
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(235, 237, 238);
+    max-width: 1000px;
+    margin-left: 350px;
+    
+}
+
+.post-header-right {
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+}
