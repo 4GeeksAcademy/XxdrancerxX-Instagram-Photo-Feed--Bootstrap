@@ -1,70 +1,127 @@
 .post-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(235, 237, 238);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(235, 237, 238);
 
 
 }
 
 .post-header-right {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 
 }
 
+
+
+
 .post-transition-buttons {
-    align-items: center;
-    justify-content: center;
-    display: grid
+  align-items: center;
+  justify-content: center;
+  display: grid
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 
-    color: var(--bs-nav-pills-link-active-color);
-    background-color: hsl(206deg 100% 85.37%);
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: hsl(206deg 100% 85.37%);
 
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+#pills-home {
+  margin-top: -60px;
 }
 
 #pills-tab {
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-.post-header-photo{
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    background-color: white;
-    
+
+.tab-content {
+  margin-top: -13px;
 }
+
+.post-header-photo {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  background-color: white;
+
+}
+
 .post-img img {
-    width:100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
+  width: 100%;
+
+}
+
+
+
+.post-article {
+  border: 2px solid rgba(0, 0, 0, 0.007);
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-top: 50px;
+
+
+
+}
 
 #one-col {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    margin-right: 200px; 
-  }
-  .post-article {
-    border: 2px solid rgba(0, 0, 0, 0.007); /* Borde de 2px de color negro */
-    border-radius: 10px; /* Esquinas redondeadas (opcional) */
-    padding: 20px; /* Espacio interno del borde */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave (opcional) */
-    background-color: white;
-                      
-  }
-  #pills-profile {
-    display: flex;
-    justify-content: center; 
-    min-height: 100vh;
-    background-color:  rgb(235, 237, 238); 
-    padding-top: 25px;    
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(235, 237, 238);
+  flex-direction: column;
+
+
 }
-    
-  
+
+
+
+
+#pills-profile {
+  padding: 0;
+  margin: 0;
+}
+
+.post-button-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+}
+
+.post-button-bar .fa-heart {
+  color: gainsboro;
+}
+
+.post-button-bar .fa-ellipsis-v {
+  color: gainsboro;
+}
+
+.post-button-bar input {
+  border: none;
+}
+
+.post-button-bar .row {
+  justify-content: space-between;
+}
+
+.col-4 {
+  height: 215px;
+}
